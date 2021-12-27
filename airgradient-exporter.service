@@ -1,0 +1,9 @@
+[Unit]
+Description=Air Gradient Exporter
+
+[Service]
+Type=simple
+ExecStart=/opt/airgradient-exporter/bin/airgradient-exporter.py
+
+[Install]
+WantedBy=multi-user.target
